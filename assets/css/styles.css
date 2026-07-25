@@ -217,13 +217,17 @@ header
   display: none;
 }
 
+.logo-light {
+  display: block;
+}
+
 [data-theme="dark"] .logo-light {
   display: none;
 }
 
 [data-theme="dark"] .logo-dark {
   display: block;
-} 
+}
 
 .background-header {
   background: rgba(250,250,250,0.99) !important;
@@ -1044,6 +1048,13 @@ schedule
 trainers
 --------------------------------------------- 
 */
+
+#trainers .logo-dark,
+#trainers .logo-light,
+#trainers .logopartner {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #trainers .trainer-item {
   background-color: #fff;
