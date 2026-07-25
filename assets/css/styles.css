@@ -501,11 +501,6 @@ header
   .header-area .main-nav .logo {
     color: #1e1e1e;
   }
-
-  .header-area li:first-child {
-    margin-top: 80px;
-  }
-  
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
     color: #C9A24D!important;
